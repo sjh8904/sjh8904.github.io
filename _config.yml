@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://sjh8904.github.io/"
+url: "https://sjh8904.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/black-lab-glass.ico"
 logo: "/img/author.png" # leave blank if you don't want a logo
 
-background-img: "../img/a.jpg"
+background-img: "../img/intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
