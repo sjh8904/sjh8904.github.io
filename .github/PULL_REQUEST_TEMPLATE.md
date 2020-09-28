@@ -1,19 +1,7 @@
-<!--
-  Choose one of the following by uncommenting it:
--->
+Issue Fixed #
 
-<!-- This is a bug fix. -->
-<!-- This is an enhancement or feature. -->
-<!-- This is a documentation change. -->
+## Proposed Changes
 
-## Summary
-
-<!--
-  Provide a description of what your pull request changes.
--->
-
-## Context
-
-<!--
-  Is this related to any GitHub issue(s)?
--->
+  -
+  -
+  -

@@ -1,40 +1,20 @@
-<footer class="mt-5 pt-5">
-  <div class="container w-100">
-    <div class="row">
-      <div class="col-md-6">
-        <strong>CREDITS</strong>
-        <table class="table table-sm">
-          <tr>
-            <td>Main Director:</td>
-            <td><a target="_blank" href="/intro.html">Szhshp</a></td>
-          </tr>
-          <tr>
-            <td>Dev Engine:</td>
-            <td>Jekyll</td>
-          </tr>
-          <tr>
-            <td>Co-Dev Engine:</td>
-            <td>Git</td>
-          </tr>
-          <tr>
-            <td>Vi Director:</td>
-            <td><a target="_blank" href="https://github.com/szhielelp/JekyllTheme-ProjectGaia">Project Gaia</a></td>
-          </tr>
-          <tr>
-            <td>Co-Vi Director</td>
-            <td>Bootstrap</td>
-          </tr>
-        </table>
-        <p class="text-muted">
-          Copyright &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}
-        </p>
-      </div>
-      <div class="col-md-6">
-        <strong>CONTACT</strong>
-        <table class="table table-sm">
-          <tr><td><a target="_blank" href="https://github.com/szhielelp">Github</a></td></tr>
-        </table>
-      </div>
+<!-- Footer Start -->
+
+<footer>
+
+    {% include social-buttons.html %}
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
+        {% if site.keybase-in-footer %}
+        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
+                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
+        {% endif %}
     </div>
-  </div>  
 </footer>
+
+<p></p>
+
+<!-- Footer End -->

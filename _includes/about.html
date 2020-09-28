@@ -1,18 +1,12 @@
-<!-- Page Content -->
-<div id="page-content-wrapper">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="page-header">
-          <h1 class="text-danger">
-            {{ page.title }}
-          </h1>
-        </div>
-        {{ page.content | markdownify }}
 
-        <!-- don't delete this div as this is header collapse end identified  -->
-        <div id="content-end"></div>
-      </div>
+<!-- About Start -->
+
+<section id="{{ page.section-type }}" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      {{ page.content | markdownify }}
     </div>
   </div>
-  <!-- /#page-content-wrapper -->
+</section>
+
+<!-- About End -->
